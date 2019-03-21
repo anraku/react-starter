@@ -1,8 +1,8 @@
 import React from 'react'
 
-const App = () => (
+const App = ({ name }) => (
   <div>
-    Hello すごいWorld!!
+    Hello {name}
   </div>
 )
 
